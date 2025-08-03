@@ -1,9 +1,13 @@
 import React from "react";
+import addCart from "../../src/assets/Images/add-to-cart.png";
 
 const Home = () => {
   return (
     <>
-      <div className="conatiner ">
+      <div className="conatiner">
+        <div className="add-to-cart">
+          <img src={addCart} alt="" />
+        </div>
         <h1 className="mainText-wrapper">Home Container</h1>
         <div className="main-container">
           <div className="cart-wrapper card-flex-wrapper">
