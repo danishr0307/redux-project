@@ -37,3 +37,13 @@
   padding: 10px 10px;
   cursor: pointer;
 }
+.btn-wrapper button:hover {
+  background-color: #2d2df0;
+}
+.add-to-cart img {
+  height: 90px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  cursor: pointer;
+}
